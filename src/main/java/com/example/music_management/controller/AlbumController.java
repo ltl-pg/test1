@@ -22,6 +22,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 public class AlbumController {
     private final AlbumService albumService;
 
+
+    // test
     public AlbumController(AlbumService albumService) {
         this.albumService = albumService;
     }
